@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, FlatList, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { useKiosco } from './contexto';
+// Cambiamos la importación apuntando al contexto fuera de la carpeta app/
+import { useKiosco } from '../hooks/contexto';
 
 function FilaVentaExpandible({ item }: { item: any }) {
   const { obtenerDetallesVenta } = useKiosco();

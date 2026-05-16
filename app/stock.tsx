@@ -1,7 +1,7 @@
 import { CameraView } from 'expo-camera';
 import React, { useState } from 'react';
 import { Button, FlatList, Modal, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
-import { Producto, useKiosco } from './contexto';
+import { Producto, useKiosco } from '../hooks/contexto';
 
 // 1. LISTA ACTUALIZADA CON TUS 9 SECCIONES + LA OPCIÓN 'TODAS' PARA EL FILTRO
 const CATEGORIAS = ['Todas', 'Bebidas', 'Alcohol', 'Snacks', 'Golosinas', 'Almacén', 'Virtual', 'Librería', 'Higiene', 'Cigarrillos'];

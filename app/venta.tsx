@@ -1,7 +1,7 @@
 import { CameraView, useCameraPermissions } from 'expo-camera';
 import React, { useEffect, useState } from 'react';
 import { Alert, FlatList, Modal, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { Producto, useKiosco } from './contexto'; // Importamos el tipo Producto
+import { Producto, useKiosco } from '../hooks/contexto'; // Importamos el tipo Producto
 
 export default function VentasScreen() {
   const { productos, registrarVenta } = useKiosco();
