@@ -3,12 +3,11 @@
     "sdkVersion": "51.0.0",
     "name": "MiAppCosmos",
     "slug": "MiAppCosmos",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "miappcosmos",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
@@ -19,12 +18,11 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false,
       "permissions": [
         "android.permission.CAMERA"
       ],
-      "package": "com.oasis4.MiAppCosmos"
+      "package": "com.oasis4.MiAppCosmos",
+      "versionCode": 2
     },
     "web": {
       "output": "static",
