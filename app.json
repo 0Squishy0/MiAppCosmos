@@ -1,5 +1,6 @@
 {
   "expo": {
+    "sdkVersion": "51.0.0",
     "name": "MiAppCosmos",
     "slug": "MiAppCosmos",
     "version": "1.0.0",
@@ -13,7 +14,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#E6F4FE", 
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
