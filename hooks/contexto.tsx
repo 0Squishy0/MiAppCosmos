@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import { Alert } from 'react-native';
-import { supabase } from './supabase';
+import { supabase } from '../constants/supabase';
 
 export interface Producto {
   id: string;
