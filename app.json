@@ -3,7 +3,7 @@
     "sdkVersion": "51.0.0",
     "name": "MiAppCosmos",
     "slug": "MiAppCosmos",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "miappcosmos",
@@ -14,15 +14,13 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE", 
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/images/icon.png"
       },
       "permissions": [
         "android.permission.CAMERA"
       ],
       "package": "com.oasis4.MiAppCosmos",
-      "versionCode": 2
+      "versionCode": 4
     },
     "web": {
       "output": "static",
@@ -42,7 +40,7 @@
           }
         }
       ],
-      "expo-barcode-scanner"
+      "expo-camera"
     ],
     "experiments": {
       "typedRoutes": true,
